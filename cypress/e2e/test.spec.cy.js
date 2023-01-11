@@ -26,7 +26,7 @@ describe('Home Page', () => {
       cy.get('.list-group').find('.list-group-item').should('have.length', 3)
     })
     it('Second list item', () => {
-      cy.get('.list-group').find('.list-group-item').eq(1).should('contain', 'List Item 2')
+      cy.get('.list-group').find('.list-group-item').eq(1).should('contain.text', 'List Item 2')
     })
     it('Second list item*s badge', () => {
       cy.get('.list-group').find('.list-group-item').eq(1).find('.badge').should('have.text', '6')
