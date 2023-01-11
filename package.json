@@ -1,0 +1,17 @@
+{
+  "name": "resolver_test_task",
+  "version": "1.0.0",
+  "description": "Resolver Tests Task",
+  "main": "QE-index.html",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Myroslava Rohova",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.3.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.2"
+  }
+}
