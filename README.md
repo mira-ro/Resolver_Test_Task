@@ -1,2 +1,6 @@
 # Resolver_Test_Task
-Tests were 
+UI Test Automation on Cypress
+
+To open the project :
+1. Clone the repository and open it through IDE
+2. Run 
