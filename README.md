@@ -1,4 +1,5 @@
 # Resolver_Test_Task
+<<<<<<< HEAD
 UI Test Automation on Cypress
 
 
@@ -12,3 +13,5 @@ test.spec.cy.js
 
 In terminal run **npx cypress open**
 Choose a browser to run the specs
+=======
+>>>>>>> origin/master
