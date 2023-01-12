@@ -1,6 +1,6 @@
 # Resolver_Test_Task
 UI Test Automation on Cypress
 
-To open the project :
-1. Clone the repository and open it through IDE
-2. Run 
+
+UI tests for Home Page done on Cypress as a test task for 
+Resolver by Myroslava Rohova

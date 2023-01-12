@@ -23,8 +23,10 @@ describe('Home Page', () => {
   })
   describe('Test 2', () => {
     it('Values of list group', () => {
+      //in this test we are asserting the length of the list
       cy.get('.list-group').find('.list-group-item').should('have.length', 3)
     })
+    //We can get the element of the list by its index, counting starts from 0
     it('Second list item', () => {
       cy.get('.list-group').find('.list-group-item').eq(1).should('contain.text', 'List Item 2')
     })
@@ -44,11 +46,13 @@ describe('Home Page', () => {
     })
   })
   describe('Test 4', () => {
+    //here we are asserting that one of the buttons is enabled and another one is not,
+    // going from parent to child element
     it('Enabled button validation', () => {
-      cy.get('#test-4-div').find('.btn').should('be.enabled')
+      cy.get('#test-4-div').find('[class="btn btn-lg btn-primary"]').should('be.enabled')
     })
     it('Disabled button validation', () => {
-      cy.get('#test-4-div').find('.btn').should('be.disabled')
+      cy.get('#test-4-div').find('[class="btn btn-lg btn-secondary"]').should('be.disabled')
     })
   })
 
